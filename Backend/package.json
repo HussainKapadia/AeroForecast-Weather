@@ -1,0 +1,20 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "Combines project of backend and frontend on weather app",
+  "main": "app.js",
+  "scripts": {
+    "server": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Hussain Kapadia",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "weather-app": "file:"
+  }
+}
